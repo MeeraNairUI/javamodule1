@@ -1,0 +1,1 @@
+package oopsday4.statictest;
