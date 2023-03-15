@@ -1,0 +1,3 @@
+module sourceusemod {
+	requires sourcemod;
+}
