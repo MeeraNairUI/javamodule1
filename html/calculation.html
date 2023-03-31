@@ -1,0 +1,36 @@
+<html>
+<head>
+<title> Time calculation</title>
+
+<script>
+
+
+function calcTime(f) {
+
+ d =  document.getElementById('dist').value;
+ v =  document.getElementById('vel').value;
+  mtime = parseFloat(d)/parseFloat(v);
+  document.getElementById('mt').value = mtime;
+
+}
+
+
+</script>
+
+</head>
+
+<body>
+
+<form>
+
+<h3> Distance Calculation </h3>
+Distance: <input type="text" name="distance" id="dist"  value="" > <br><br>
+Velocity: <input type="text" name="velocity" id="vel"  value="" ><br><br>
+time Taken: <input type="text" name="mytime" id="mt"  value="" ><br><br>
+
+<input type="button" name="b" value="calc" onclick="calcTime(this.form)">
+
+</form>
+
+</body>
+</html>

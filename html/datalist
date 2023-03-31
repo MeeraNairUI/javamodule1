@@ -1,0 +1,7 @@
+<datalist id="browsers">
+  <option value="Edge">rr
+  <option value="Firefox">rr
+  <option value="Chrome">rr
+  <option value="Opera">tt
+  <option value="Safari">yy
+</datalist>

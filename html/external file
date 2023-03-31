@@ -1,0 +1,8 @@
+<html>
+<head><title>Using External JS file </title>
+<script src="external.js"></script>
+</head>
+<body>
+<input type="button" name="b"  value="Click"  onclick="callme()" />
+<body>
+</html>

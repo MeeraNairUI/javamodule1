@@ -1,0 +1,64 @@
+.header{
+    width: 100%;
+    
+}
+.header1{
+    width: 20%;
+    float:left;
+    height: 20%;
+   
+}
+.header2{
+    width: 80%;
+    
+    float: left;
+    text-align: center;
+    background-color: lightgray;
+   
+    
+}
+.footer{
+    
+    color: black;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.menu {  float:left; width: 97%;  height: 60px; background-color: black;  color:white;font-size:25px ;margin-top:0px; }
+.menu ul { overflow: hidden; z-index: 1000; position: absolute; }
+.menu li a { display: block;color:white;text-align: center;font-size:22px; font-weight:bold;text-decoration: none;  padding: 10px; }
+.menu li  { float: left;list-style: none;width: 90px;  color:white;text-align:center;font-size:22px; font-weight:bold; padding: 10px; }
+
+
+
+.menu li a:hover  { background-color:pink; }
+
+
+.menu li ul li a:hover{
+background:pink; 
+}
+.navcontent{  float:left; height:500px; width:100%;  margin-top:-30px; margin-top:30px;}
+.nav { float:left; height:500px; width:20%;  background-color:gray; color:white;}
+.content { float:left; height:500px; width:80%;  background-color:blue; color:white; text-align:center;}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    float: left;
+    padding: 10px;
+    font-size: 20px;
+}
+ul{
+    overflow: hidden;
+    background-color: black;
+}
+li a:hover{
+    color: blue;
+    background: white;
+}
+

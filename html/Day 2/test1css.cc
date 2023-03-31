@@ -1,0 +1,80 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    border-top:rgb(7,7,7);
+    border-style:solid;
+    border-color:rgb(223,27,27);
+    border-width:3px;
+    background-color:rgb(223,217,217); 
+}
+div{
+    width:1200px;
+    height:100px;
+    border:10px;
+    border-color:rgb(9,9,9);
+    padding:20px;
+    margin:10px;
+}
+#first{
+    border-style:dashed;
+}
+#second{
+    border-style:double;
+}
+#third{
+    border-style:ridge;
+}
+-p1{
+    background-color:whitesmoke;
+}
+-first-para{
+    font-size:x-large;
+    color:rebeccapurple;
+}
+#p-1{
+    font-size:large;
+    font-style:italic;
+    background-color:blue;
+}
+#p-2{
+    font-size:medium;
+    font-style:oblique;
+    background-color:brown;
+}
+#p-3{
+    font-size:small;
+    font-style:initial;
+    background-color:orange;
+}
+#first>h1{
+    font-family:'Caveat',cursive;
+}
+#second>h1{
+    font-family:'Shadows Into Light',cursive;
+}
+#third>h1{
+    font-family:'Gruppo',cursive;
+}
+span{
+    color:blue;
+}
+#p-1>span{
+    color:green;
+}
+#p-2>span{
+    color:orange;
+}
+#p-3>span{
+    color:red;
+}
+#first span{
+    color:rgb(5,5,5);
+}
+#second span{
+    color:rgb(3,3,3);
+}
+#third span{
+    color:rgb(2,2,2);
+}

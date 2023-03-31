@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration form</title>
+    <link rel="stylesheet" href="container.css">
+</head>
+<body>
+    <header>
+        <h2>rediff.com</h2>
+    </header>
+    <hr>
+    <main>
+        <h2>Create a rediffmail account</h2>
+        <div class="container">
+            <form name="regform">
+                <table name="register">
+                    <tr>
+                      <td> <label for="full name">Full name:</label></td>
+                        <td> <input type="text" name=""></td>
+                    </tr>
+                    <tr>
+                        <td><label for="choosemail">Choose a mail:</label></td>
+                        <td> <input type="email" name="choosemail"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="pass">Enter your password</label></td>
+                        <td> <input type="password" name="retype password"></td>
+                    </tr>
+                    <tr>
+                        <td> <label for="dob">Choose dob:</label></td>
+                        <td><input type="date" name="dob"></td>
+                    </tr>
+                    <tr>
+                       <td><label for="altemail">Alternate Email id:</label></td>
+                        <td> <input type="text"  name="altemail"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="altemailop">Check if you dont have altemail</label></td>
+                        <td><input type="checkbox" name="checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="mobile">Mobile No:</td>
+                        <td><select name="countrycode"> class="form-control"
+                            <option value="ind">+91 India</option>
+                            <option value="USA">+1 USA/Canadaa</option>
+                            <option value="UK">+44 Great Britan</option>
+                        </select>
+                    <input type="text" name="no"></td>
+                    </tr>
+                    <tr>
+                    <td><label for="gender">Gender:</label></td>
+                    <td><input type="radio" name="gender" value="male">Male
+                        <input type="radio" name="gender" value="female">female</td> 
+                    </tr>
+                    <tr>
+                        <td><label for="country">Choose Country:</label></td>
+                        <td><select name="country" id="">
+                            <option value="Tri">Trivandrum</option>
+                            <option value="mum">mumbai</option>
+                            <option value="ny">New York</option>
+                            <option value="cal">California</option>
+                        </select></td>
+                    </tr>
+                 <tr>
+                     <td align="center" colspan="20px"><input type="submit" name="submit" id="submit" value="Register" class="btn btn-primary"></td>
+                    <td><input type="reset" name="reset" id="reset" value="clear" class="btn btn-danger"></td>
+                 </tr>
+                </table>
+            </form>
+        </div>
+    </main>
+    
+</body>
+</html>

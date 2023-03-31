@@ -1,0 +1,27 @@
+function checkUpperLowerCaseString(str) {
+
+var len =  str.length;
+lowercount=0;
+uppercount=0;
+
+for ( var i =0; i < len; i++) {
+
+ // console.log(str[i])  ;
+    if(checkupper(str[i]))    uppercount++;
+
+    else lowercount++;
+
+}
+
+
+console.log("uppercount:", uppercount);
+console.log("lowecount:", lowercount);
+
+}
+
+
+function checkupper(c) {
+
+    if( c >='A'  && c<='Z')  return true;
+
+}
